@@ -3,7 +3,7 @@ import re
 import urllib
 
 #connect to a URL
-course = "gre"
+course = "gmat"
 url = "https://"+course+".magoosh.com/lessons"
 website = urllib2.urlopen(url)
 
