@@ -23,7 +23,7 @@ for i in links:
 	html = website.read()
 	#link = re.findall('https:.*.cloudfront.net.audio_video.*-video-.*.web.mp4', html)
 	#link = re.findall('<li.* class=.current.*\n<a.*\n<span.*', html)
-	link = re.findall('<div class="lesson-item current.*',html)
+	link = re.findall('<div class="lesson-item .*current.*',html)
 	#print link;
 	link = re.findall('https.*.web',link[0])
 	link = link[0]+".mp4";
